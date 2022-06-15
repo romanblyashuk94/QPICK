@@ -6,7 +6,7 @@
   "homepage": "https://romanblyashuk94.github.io/qpic",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /qpic/",
+    "build": "parcel build src/*.html --public-url .",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
