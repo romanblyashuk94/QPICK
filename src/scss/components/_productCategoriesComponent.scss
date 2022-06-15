@@ -1,0 +1,28 @@
+.productCategories {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+.productCategories__item {
+    flex-basis: calc(33.33% - 20px);
+    min-width: 340px;
+    height: 408px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    padding: 25px 22px 49px;
+    text-align: center;
+    transition: transform $transitionSetting;
+    &:hover {
+        transform: scale(105%);
+    }
+}
+
+.productCategories__title {
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 17px;
+    color: #1C1C27;
+}
